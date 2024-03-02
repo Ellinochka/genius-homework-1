@@ -1,0 +1,35 @@
+ul{
+    list-style-type:none ;
+}
+.button {
+    color: #FFFFFF;;
+background-color: #2B7FFF;
+border: 2px solid #2B7FFF;
+border-radius:  32px;
+cursor: pointer;
+}
+ 
+.button:hover{
+    color: black;
+    background-color: transparent;
+}
+
+.link{
+    color: #011C44;
+}
+
+.link:hover{
+    color: #2B7FFF;
+}
+
+.hero-title{
+    color: #2B7FFF;
+}
+
+
+.about-us-title{
+    color: #000000;
+}
+.accent{
+    color: #2B7FFF;
+}
