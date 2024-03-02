@@ -1,35 +1,68 @@
+:root{
+    --color-primary-dark: #011C44;
+    --color-brand-light: #2B7FFF;
+    --color-primary-light: #FFFFFF;
+}
+
+/*Base*/
+body{
+    color: var(--color-primary-dark);
+}
+
 ul{
     list-style-type:none ;
 }
+
+/*Button*/
 .button {
-    color: #FFFFFF;;
-background-color: #2B7FFF;
-border: 2px solid #2B7FFF;
+color: var(--color-primary-light);
+background-color: var(--color-brand-light);
+border: 2px ;
 border-radius:  32px;
 cursor: pointer;
 }
  
 .button:hover{
-    color: black;
+    color: var(--color-brand-light)
     background-color: transparent;
 }
 
+/*Link*/
 .link{
-    color: #011C44;
+    color: var(--color-primary-dark)
 }
 
 .link:hover{
-    color: #2B7FFF;
+    color: var(--color-brand-light)
 }
 
+/*Hero-section*/
 .hero-title{
-    color: #2B7FFF;
+    color: var(--color-brand-light)
 }
 
-
-.about-us-title{
-    color: #000000;
-}
 .accent{
-    color: #2B7FFF;
+    color: var(--color-brand-light)
+}
+
+
+.link-list{
+    color: var(--color-primary-light)
+}
+
+.address-link{
+    color: var(--color-primary-light)
+}
+
+.address-copyright{
+ color: #747272;
+}
+
+.section-title{
+    color: var(--color-primary-dark)
+}
+
+/*Footer-section*/
+.footer-list {
+    background: var(--color-primary-dark)
 }
