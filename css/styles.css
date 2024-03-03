@@ -1,3 +1,43 @@
+
+@font-face {
+    font-display: swap;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+    
+}
+
+@font-face {
+    font-display: swap;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+    
+}
+
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+
 :root{
     --color-primary-dark: #011C44;
     --color-brand-light: #2B7FFF;
@@ -7,6 +47,8 @@
 /*Base*/
 body{
     color: var(--color-primary-dark);
+    font-family: Roboto, sans-serif;
+    
 }
 
 ul{
@@ -15,6 +57,7 @@ ul{
 
 /*Button*/
 .button {
+    font-weight: 600;
 color: var(--color-primary-light);
 background-color: var(--color-brand-light);
 border: 2px ;
@@ -23,46 +66,134 @@ cursor: pointer;
 }
  
 .button:hover{
-    color: var(--color-brand-light)
+    color: var(--color-brand-light);
     background-color: transparent;
 }
 
 /*Link*/
 .link{
-    color: var(--color-primary-dark)
+    color: var(--color-primary-dark);
+    text-decoration: none;
 }
 
 .link:hover{
-    color: var(--color-brand-light)
+    color: var(--color-brand-light);
+    font-weight: 700;
 }
 
 /*Hero-section*/
 .hero-title{
-    color: var(--color-brand-light)
+    color: var(--color-brand-light);
+    font-family: play, sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    
+}
+
+.hero-item2{
+    color: #4A4A4A;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
 }
 
 .accent{
-    color: var(--color-brand-light)
+    color: var(--color-brand-light);
 }
 
 
 .link-list{
-    color: var(--color-primary-light)
+    color: var(--color-primary-light);
+    
+    text-decoration: none;
+}
+
+.link-list:hover{
+    color: var(--color-brand-light);
+    
 }
 
 .address-link{
-    color: var(--color-primary-light)
+    color: var(--color-primary-light);
 }
 
 .address-copyright{
  color: #747272;
 }
-
-.section-title{
-    color: var(--color-primary-dark)
+  /*Section*/
+.about-us-title{
+    color: var(--color-primary-dark);
+    font-family: play, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.16;
 }
+
+.why-title{
+    color: var(--color-primary-dark);
+        font-family: play, sans-serif;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 1.16;
+}
+
+.services-title{
+    color: var(--color-primary-dark);
+        font-family: play, sans-serif;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 1.16;
+}
+
+.contact-section{
+    color: var(--color-primary-dark);
+        font-family: play, sans-serif;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 1.16;
+}
+ /*Contact*/
+ .contact-item{
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.17;
+
+ }
+ 
+
+
+.about-us-text span {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+
 
 /*Footer-section*/
 .footer-list {
-    background: var(--color-primary-dark)
+    font-family: Roboto, sans-serif;
+    background: var(--color-primary-dark);
+    font-size: 16px;
+    line-height: 1.17;
+    font-weight: 400;
 }
+ 
+ .address-link {
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+        background: var(--color-primary-dark);
+        font-size: 16px;
+        line-height: 1.17;
+        font-weight: 400;
+ }
+
+ .address-copyright{
+    font-family: Roboto, sans-serif;
+        background: var(--color-primary-dark);
+        color: #747272;
+        font-size: 13px;
+        line-height: 1.17;
+        font-weight: 400;
+ }
+
